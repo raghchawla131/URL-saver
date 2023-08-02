@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 10px;
+}
+
+body {
+    max-width: 400px;
+}
+
+#input-el {
+    border: 1px solid green;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+#input-btn,
+#save-btn {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    margin-right: 1.2rem;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    transition: 0.3s ease;
+}
+
+#delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    margin-right: 1.2rem;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.09);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 0;
+    margin-bottom: 5px;
+    margin-left: -10px;
+}
+
+a {
+    color: green;
+}
+
+a:hover {
+    color: rgb(19, 88, 19);
+}
